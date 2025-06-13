@@ -19,8 +19,10 @@ export const stackData = [
     technologies: [
       { name: "Node.Js", icon: "devicon-nodejs-plain" },
       { name: "Express.Js", icon: "devicon-express-original" },
+      { name: "NestJS", icon: "devicon-nestjs-plain" },
       { name: "Python", icon: "devicon-python-plain" },
       { name: "Java", icon: "devicon-java-plain" },
+      { name: "Socket.IO", icon: "devicon-socketio-original" },
     ],
   },
   {

@@ -10,19 +10,20 @@ const FadeOnScroll = ({ children, delay = 0 }) => {
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.1,
-    rootMargin: "-50px 0px -50px 0px",
+    rootMargin: "0px 0px -10% 0px",
   });
 
   return (
-    <motion.div
-      ref={ref}
-      variants={variants}
-      initial="hidden"
-      animate={inView ? "visible" : "hidden"}
-      transition={{ duration: 1, ease: "easeOut", delay }}
-    >
-      {children}
-    </motion.div>
+    <div ref={ref}>
+      <motion.div
+        variants={variants}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        transition={{ duration: 1, ease: "easeOut", delay }}
+      >
+        {children}
+      </motion.div>
+    </div>
   );
 };
 
