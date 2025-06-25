@@ -1,4 +1,10 @@
-import { SiJira, SiConfluence, SiTrello, SiAndroid } from "react-icons/si";
+import {
+  SiJira,
+  SiConfluence,
+  SiTrello,
+  SiAndroid,
+  SiDocker,
+} from "react-icons/si";
 
 export const stackData = [
   {
@@ -37,6 +43,7 @@ export const stackData = [
     category: "TOOLS",
     technologies: [
       { name: "Git", icon: "devicon-git-plain" },
+      { name: "Docker", icon: <SiDocker size={50} color="#2496ED" /> },
       { name: "Jira", icon: <SiJira size={50} color="#0052CC" /> },
       { name: "Confluence", icon: <SiConfluence size={50} color="#0052CC" /> },
       { name: "Trello", icon: <SiTrello size={50} color="#0079BF" /> },

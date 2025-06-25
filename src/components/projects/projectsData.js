@@ -7,7 +7,7 @@ export const projectsList = [
       "https://github.com/segevGr/JamLive/blob/master/screenshots/live-jam.png?raw=true",
     link: "https://jamlive.vercel.app/",
     github: "https://github.com/segevGr/JamLive",
-    tech: ["React", "NestJS", "MongoDB", "Socket.io", "Typescript"],
+    tech: ["React", "NestJS", "MongoDB", "Socket.io", "Docker"],
   },
   {
     title: "Portfolio Website",
