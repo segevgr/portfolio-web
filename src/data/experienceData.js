@@ -1,9 +1,9 @@
 export const experienceData = [
   {
     place: "Elbit Systems",
-    title: "Jira Developer & Administrator",
+    title: "Software Developer",
     years: "2022–2024",
-    technologies: ["React", "Python", "Node.js"],
+    technologies: ["React", "Node.js", "Python"],
   },
   {
     place: "Rescue Anxiety App",
