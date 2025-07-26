@@ -4,7 +4,7 @@ export const projectsList = [
     description:
       "Real-time harmony for real-life musicians - lyrics, chords, and roles in perfect sync.",
     imgSrc:
-      "https://github.com/segevGr/JamLive/blob/master/screenshots/live-jam.png?raw=true",
+      "https://github.com/segevGr/JamLive/blob/master/screenshots/admin-lobby-live-song.png?raw=true",
     link: "https://jamlive.vercel.app/",
     github: "https://github.com/segevGr/JamLive",
     tech: ["React", "NestJS", "MongoDB", "Socket.io", "Docker"],
