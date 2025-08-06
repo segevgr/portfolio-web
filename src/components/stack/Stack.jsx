@@ -1,6 +1,6 @@
 import React from "react";
 import SectionContainer from "../utilComponents/SectionContainer";
-import { stackData } from "../../data/stackData";
+import { stackData } from "./stackData";
 import FadeOnScroll from "../utilComponents/FadeOnScroll";
 import { layoutWidth, secondaryTitle } from "../../utils/layout";
 

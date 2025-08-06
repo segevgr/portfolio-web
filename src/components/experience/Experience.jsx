@@ -1,7 +1,7 @@
-import FadeOnScroll from "./utilComponents/FadeOnScroll";
-import SectionContainer from "./utilComponents/SectionContainer";
-import { layoutWidth, secondaryTitle } from "../utils/layout";
-import { experienceData } from "../data/experienceData";
+import FadeOnScroll from "../utilComponents/FadeOnScroll";
+import SectionContainer from "../utilComponents/SectionContainer";
+import { layoutWidth, secondaryTitle } from "../../utils/layout";
+import { experienceData } from "./experienceData";
 
 const Experience = () => {
   return (

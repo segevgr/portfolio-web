@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import SectionContainer from "../utilComponents/SectionContainer";
 import ProfessionCard from "./ProfessionCard";
 import FadeOnScroll from "../utilComponents/FadeOnScroll";
-import { professionsList } from "../../data/professionData";
+import { professionsList } from "./professionData";
 
 const Profession = () => {
   const swiperRef = useRef(null);

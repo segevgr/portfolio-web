@@ -1,5 +1,12 @@
 export const experienceData = [
   {
+    place: "Develeap",
+    title: "DevOps Trainee",
+    years: "2025",
+    technologies: ["Docker", "Kubernetes", "AWS"],
+  },
+
+  {
     place: "Elbit Systems",
     title: "Software Developer",
     years: "2022–2024",
