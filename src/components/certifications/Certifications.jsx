@@ -8,7 +8,7 @@ const Certifications = () => {
   const isOdd = certifications.length % 2 === 1;
 
   return (
-    <SectionContainer id="Certifications" title={"Certifications"}>
+    <SectionContainer id="certifications" title={"Certifications"}>
       <FadeOnScroll>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
           {certifications.map((c, i) => {
