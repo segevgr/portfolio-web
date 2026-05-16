@@ -27,10 +27,10 @@ const Footer = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-3 md:right-6 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md hover:bg-gray-100 transition"
+          className="fixed bottom-6 right-3 md:right-6 w-10 h-10 flex items-center justify-center rounded-full bg-softWhite shadow-md hover:opacity-90 transition"
           aria-label="Scroll to top"
         >
-          <FontAwesomeIcon icon={faArrowUp} className="text-gray-800 text-lg" />
+          <FontAwesomeIcon icon={faArrowUp} className="text-primary text-lg" />
         </button>
       )}
     </footer>

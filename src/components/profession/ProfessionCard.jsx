@@ -1,23 +1,23 @@
 import "swiper/css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLaptopCode,
-  faDatabase,
-  faDesktop,
-  faMobileAlt,
-  faPuzzlePiece,
+  faCloud,
+  faInfinity,
+  faCubes,
+  faChartLine,
+  faShieldHalved,
 } from "@fortawesome/free-solid-svg-icons";
 
 const iconMap = {
-  "Full Stack Developer": faLaptopCode,
-  "Backend Developer": faDatabase,
-  "Frontend Developer": faDesktop,
-  "Mobile Developer": faMobileAlt,
-  "Jira Plugin Developer": faPuzzlePiece,
+  "Cloud Infrastructure": faCloud,
+  "CI/CD Pipelines": faInfinity,
+  "Container Orchestration": faCubes,
+  "Monitoring & Observability": faChartLine,
+  "DevSecOps & Automation": faShieldHalved,
 };
 
 const ProfessionCard = ({ highlighted, title, description }) => {
-  const icon = iconMap[title] || faLaptopCode;
+  const icon = iconMap[title] || faCloud;
 
   return (
     <div
@@ -31,12 +31,12 @@ const ProfessionCard = ({ highlighted, title, description }) => {
         <FontAwesomeIcon
           icon={icon}
           className={`text-3xl transition-colors duration-300 ${
-            highlighted ? "text-black" : "text-secondary"
+            highlighted ? "text-white" : "text-secondary"
           }`}
         />
         <h3
           className={`text-center font-bold transition-all duration-300 text-2xl ${
-            !highlighted && "md:text-xl"
+            highlighted ? "text-background" : "md:text-xl"
           }`}
         >
           {title}

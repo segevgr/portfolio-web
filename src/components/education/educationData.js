@@ -1,20 +1,14 @@
 export const educationData = [
   {
     place: "Develeap",
-    title: "DevOps Trainee",
+    title: "DevOps Training Program",
     years: "2025",
-    technologies: ["Docker", "Kubernetes", "AWS"],
+    technologies: ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "GitHub Actions", "Bash"],
   },
   {
-    place: "Yezreel valley college",
-    title: "B.Sc. in Information Systems",
+    place: "Yezreel Valley College",
+    title: "B.Sc. in Information Systems (GPA: 94.1)",
     years: "2020–2023",
-    technologies: ["React", "Java", "SQL"],
-  },
-  {
-    place: "ORT Bialik High School",
-    title: "Software Engineering & Physics",
-    years: "2015–2017",
-    technologies: ["C#", "Java", "Android Studio"],
+    technologies: ["Operating Systems", "Databases", "Networking", "Cloud Computing"],
   },
 ];

@@ -5,47 +5,36 @@ import {
   SiPostman,
   SiDocker,
   SiJenkins,
-  SiApachenetbeanside,
 } from "react-icons/si";
 
 export const stackData = [
-  {
-    category: "FRONTEND",
-    technologies: [
-      { name: "React", icon: "devicon-react-original" },
-      { name: "TypeScript", icon: "devicon-typescript-plain" },
-      { name: "JavaScript", icon: "devicon-javascript-plain" },
-      { name: "Redux", icon: "devicon-redux-original" },
-      { name: "React Native", icon: "devicon-react-original" },
-      { name: "TailwindCSS", icon: "devicon-tailwindcss-plain" },
-      { name: "HTML5", icon: "devicon-html5-plain" },
-      { name: "JQuery", icon: "devicon-jquery-plain" },
-    ],
-  },
-  {
-    category: "BACKEND",
-    technologies: [
-      { name: "Node.Js", icon: "devicon-nodejs-plain" },
-      { name: "Express.Js", icon: "devicon-express-original" },
-      { name: "NestJS", icon: "devicon-nestjs-plain" },
-      {
-        name: "RESTful APIs",
-        icon: <SiApachenetbeanside size={50} color="#6D6E70" />,
-      },
-      { name: "Socket.IO", icon: "devicon-socketio-original" },
-      { name: "Python", icon: "devicon-python-plain" },
-      { name: "Java", icon: "devicon-java-plain" },
-    ],
-  },
   {
     category: "DEVOPS",
     technologies: [
       { name: "Docker", icon: <SiDocker size={50} color="#2496ED" /> },
       { name: "Kubernetes", icon: "devicon-kubernetes-plain" },
       { name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark" },
-      { name: "GitHub Actions", icon: "devicon-github-original" },
-      { name: "Linux", icon: "devicon-linux-plain" },
       { name: "Jenkins", icon: <SiJenkins size={50} color="#D24939" /> },
+      { name: "GitHub Actions", icon: "devicon-github-original" },
+      { name: "Terraform", icon: "devicon-terraform-plain" },
+      { name: "Linux", icon: "devicon-linux-plain" },
+    ],
+  },
+  {
+    category: "SCRIPTING",
+    technologies: [
+      { name: "Python", icon: "devicon-python-plain" },
+      { name: "Bash", icon: "devicon-bash-plain" },
+      { name: "Groovy", icon: "devicon-groovy-plain" },
+    ],
+  },
+  {
+    category: "FRONTEND",
+    technologies: [
+      { name: "React", icon: "devicon-react-original" },
+      { name: "TypeScript", icon: "devicon-typescript-plain" },
+      { name: "JavaScript", icon: "devicon-javascript-plain" },
+      { name: "Node.Js", icon: "devicon-nodejs-plain" },
     ],
   },
   {

@@ -1,27 +1,27 @@
 export const professionsList = [
   {
-    title: "Backend Developer",
+    title: "Cloud Infrastructure",
     description:
-      "Specializing in server-side development, building APIs, managing databases, and ensuring robust and scalable application performance.",
+      "Designing and managing cloud environments on AWS — provisioning resources, ensuring high availability, and optimizing cost and reliability at scale.",
   },
   {
-    title: "Frontend Developer",
+    title: "CI/CD Pipelines",
     description:
-      "Crafting user-friendly, responsive interfaces using modern technologies, with a focus on performance, accessibility, and intuitive user experiences.",
+      "Building and maintaining automated build, test, and deployment pipelines using Jenkins and GitHub Actions, enabling fast and safe software delivery.",
   },
   {
-    title: "Full Stack Developer",
+    title: "Container Orchestration",
     description:
-      "Designing, developing, and maintaining both frontend and backend components for web and mobile applications. Skilled in building complete solutions from database to user interface.",
+      "Deploying and managing containerized workloads with Docker and Kubernetes, ensuring scalability, resilience, and efficient resource utilization.",
   },
   {
-    title: "Mobile Developer",
+    title: "Monitoring & Observability",
     description:
-      "Building high-quality cross-platform mobile applications using React Native, with a focus on performance, native integration, and seamless user experience.",
+      "Setting up monitoring, alerting, and logging systems to provide full visibility into infrastructure and application health, reducing MTTR.",
   },
   {
-    title: "Jira Plugin Developer",
+    title: "DevSecOps & Automation",
     description:
-      "Developing custom plugins, automation, and integrations for Jira and other Atlassian products, enhancing workflows and team productivity.",
+      "Embedding security into the development pipeline and automating repetitive operations through scripting and Infrastructure as Code practices.",
   },
 ];

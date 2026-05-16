@@ -1,12 +1,12 @@
 export const heroText = {
   hey: ["Hey,", "my name is"],
   name: "Segev Grotas",
-  title: "And I am a Full Stack Developer!",
+  title: "And I am a DevOps Engineer!",
   paragraphs: [
-    "B.Sc. in Information Systems, graduated with honors.",
-    "Creative, highly motivated, and passionate about building real-world products that make an impact.",
-    "Known for strong teamwork, fast learning, and a high sense of responsibility.",
-    "Always seeking opportunities to grow, improve processes, and contribute to a better tech culture.",
+    "B.Sc. in Information Systems (Graduated with Honors) | Graduate of Develeap's DevOps Program.",
+    "Skilled in Jenkins pipelines, Docker containerization, Terraform (IaC), and cloud environments (AWS).",
+    "Passionate about building reliable infrastructure and reducing deployment effort through automation.",
+    "2 years of software development background — bringing a developer's mindset to every infrastructure challenge.",
   ],
   buttons: { CV: "Download CV", Certificate: "Certificate of Excellence" },
 };

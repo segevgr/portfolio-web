@@ -11,15 +11,15 @@ import Certifications from "./components/certifications/Certifications";
 
 function App() {
   return (
-    <div className="md:min-h-screen md:py-5 md:px-28 bg-graySide overflow-x-hidden">
-      <div className="md:p-5 md:rounded-xl md:shadow-xl py-2 bg-background ">
+    <div className="md:min-h-screen md:py-5 md:px-28 bg-graySide overflow-x-hidden text-textPrimary">
+      <div className="md:p-5 md:rounded-xl md:shadow-xl py-2 bg-background">
         <Navbar />
         <Hero />
         <Profession />
         <Stack />
         <Certifications />
-        <Projects />
         <Experience />
+        <Projects />
         <Education />
         <Contact />
         <Footer />

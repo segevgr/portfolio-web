@@ -11,7 +11,7 @@ const ProjectCard = ({ title, description, imgSrc, tech, link, github }) => {
         transition={{ duration: 0.3 }}
         className="w-full max-w-md cursor-default px-5 sm:px-0"
       >
-        <div className="rounded-2xl shadow-md overflow-hidden bg-white">
+        <div className="rounded-2xl shadow-md overflow-hidden bg-softWhite">
           <img
             src={imgSrc}
             alt={title}
@@ -19,7 +19,7 @@ const ProjectCard = ({ title, description, imgSrc, tech, link, github }) => {
           />
           <div className="p-5">
             <h3 className="text-xl font-semibold mb-2 text-primary">{title}</h3>
-            <p className="text-sm mb-4 leading-relaxed text-text">
+            <p className="text-sm mb-4 leading-relaxed text-textSecondary">
               {description}
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
@@ -53,8 +53,7 @@ const ProjectCard = ({ title, description, imgSrc, tech, link, github }) => {
                   GitHub
                   <FontAwesomeIcon
                     icon={faGithub}
-                    style={{ color: "#181717" }}
-                    className="text-xl"
+                    className="text-xl text-primary"
                   />
                 </a>
               )}

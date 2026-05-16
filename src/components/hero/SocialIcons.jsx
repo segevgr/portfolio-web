@@ -18,7 +18,7 @@ const SocialIcons = () => {
         <FontAwesomeIcon
           icon={faGithub}
           className="text-3xl hover:scale-110 transition-transform duration-200"
-          style={{ color: "#181717" }}
+          style={{ color: "#E2E8F0" }}
         />
       </a>
       <a

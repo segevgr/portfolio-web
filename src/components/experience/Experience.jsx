@@ -25,11 +25,18 @@ const Experience = () => {
               <div className="flex flex-row text-base text-secondary">
                 <p className="text-textPrimary">{`${item.years} |`}</p>
                 {item.technologies.map((tech, index) => (
-                  <p key={index} className="pl-2 ">{`${tech} ${
+                  <p key={index} className="pl-2">{`${tech} ${
                     index !== item.technologies.length - 1 ? "●" : ""
                   }`}</p>
                 ))}
               </div>
+              {item.bullets?.length > 0 && (
+                <ul className="mt-3 space-y-2 list-disc list-inside text-textSecondary text-sm leading-relaxed max-w-2xl">
+                  {item.bullets.map((bullet, i) => (
+                    <li key={i}>{bullet}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </FadeOnScroll>
         ))}
